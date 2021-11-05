@@ -1,5 +1,12 @@
 # Google calendar syncer
 Source code for google script app to sync calendars.
+
+![trigger](img/preview.png) 
+
+---
+[MEDIUM POST WITH DESCRIPTION](https://kirya522.medium.com/google-calendars-synchronization-c0e1971dbb49)
+
+---
 ## Problem
 You have two calendars
  - personal
@@ -24,7 +31,8 @@ var id = "kirya522@gmail.com"; // CHANGE - id of the secondary calendar to pull 
 ```
 
 6. Configure trigger to update your calendar.  Click on timer icon on the left. ![trigger](img/timer.png) 
- Click add trigger on the right bottom side and configure trigger to execute sync function each minute.  ![Trigger configuration](img/trigger-configuration.png) And press save.
+ 
+Click add trigger on the right bottom side and configure trigger to execute sync function each minute.  ![Trigger configuration](img/trigger-configuration.png) And press save.
 
  ### Thats it events from your personal calendar will sync each minute to your working calendar with specific name, you can change it using variable SYNC_EVENT_NAME 
 
